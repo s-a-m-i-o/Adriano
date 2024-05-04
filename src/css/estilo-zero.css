@@ -1,0 +1,47 @@
+body {
+    background: url(../img/fundo.png) no-repeat center center;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--terceira-cor);
+    color: #fff;
+}
+
+.header .logo img {
+    width: 80px;
+}
+
+.header .logo h1 {
+    margin-left: 30px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.header .menu a {
+    margin: 5px;
+    padding: 7px ;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold; 
+    transition: 0.3s ease-in-out;
+}
+
+.header .menu a:hover {
+    color: var(--primeira-cor); 
+    
+}
+
+
