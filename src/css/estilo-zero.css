@@ -1,5 +1,5 @@
 body {
-    background: url(../img/fundo.png) no-repeat center center;
+    background:rgba(255, 255, 255, 0.5) url(../img/fundo.jpg) no-repeat;
     background-size: cover;
 }
 
