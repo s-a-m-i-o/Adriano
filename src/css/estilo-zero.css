@@ -50,6 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .geral .conteudo  {
@@ -70,7 +71,7 @@
     margin-bottom: 15px;
 }
 
-.geral .conteudo .descricao-conteudo .texto {
+.texto {
     padding: 10px;
     text-align: justify;
     font-family: var(--fonte-padrao);
@@ -78,6 +79,8 @@
     font-size: 18px;
     line-height: 16px;
 }
+
+
 
 .footer {
     background-color: var(--terceira-cor);
