@@ -1,5 +1,18 @@
+body {
+    background:rgba(255, 255, 255, 0.5) url(../img/fundo.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    height: 100vh;   
+    font-family:"Josefin Sans", sans-serif ; 
+}
+
 :root {
     --primeira-cor:#0efefd;
     --segunda-cor:#00b1b1;
     --terceira-cor:#003771;
 }
+
+:root {
+    --fonte-padrao: "Josefin Sans", sans-serif;
+    };
