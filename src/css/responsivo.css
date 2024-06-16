@@ -1,0 +1,43 @@
+@media (min-width:768px) and (max-width:1024px) {
+    .header .logo img {
+        width: 100px;
+    }
+
+    .todo-conteudo .indice img{
+        width: 500px;
+    }
+
+    .todo-conteudo .quem-somos img {
+        width: 150px;
+    }
+
+    .todo-conteudo .quem-somos {
+        overflow: hidden;
+        height: 900px;
+    }
+
+    .todo-conteudo .contato img {
+        width: 250px;
+    }
+
+    .todo-conteudo .servicos .todos-servicos {
+        justify-content: center;
+}
+
+}
+
+@media (min-width:380px) and (max-width:767px) {
+    .header {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .todo-conteudo .indice img {
+        width: 350px;
+    }
+
+    .todo-conteudo .quem-somos {
+        flex-direction: column;
+    }
+
+}

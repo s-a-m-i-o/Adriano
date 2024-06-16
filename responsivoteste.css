@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .header .logo {
+        margin-bottom: 10px;
+    }
+
+    .header .menu ul {
+        flex-direction: column;
+    }
+
+    .header .menu a {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .todo-conteudo .indice img,
+    .todo-conteudo .quem-somos img,
+    .todo-conteudo .contato img {
+        width: 100%;
+    }
+
+    .todo-conteudo .quem-somos,
+    .todo-conteudo .contato {
+        flex-direction: column;
+    }
+
+    .todo-conteudo .servicos .todos-servicos {
+        flex-direction: column;
+    }
+
+    .todo-conteudo .servicos .todos-servicos .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer p {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .menu a {
+        padding: 10px;
+    }
+
+    .todo-conteudo .quem-somos .contato-quem-somos {
+        padding: 20px;
+    }
+
+    .footer .menu .item {
+        font-size: 16px;
+    }
+}
