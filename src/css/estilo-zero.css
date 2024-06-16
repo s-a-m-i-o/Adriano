@@ -53,7 +53,7 @@
     flex-direction: column;
 }
 
-.geral .conteudo  {
+.geral .conteudos {
     display: flex;
     justify-content: center;
     align-items: center;
