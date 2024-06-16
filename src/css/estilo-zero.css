@@ -114,6 +114,8 @@
     background-repeat: no-repeat;
     border: 3px solid var(--terceira-cor);
     border-radius: 7px;
+    box-shadow: 3px 3px 12px  rgb(56, 55, 55);
+    height:600px;
 }
 
 
@@ -121,7 +123,7 @@
 .todo-conteudo .quem-somos .descricao-conteudo {
     display: flex;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .todo-conteudo .quem-somos .contato-quem-somos {
@@ -133,11 +135,13 @@
     border: 1px solid var(--terceira-cor);
     margin: 3px 100px;
     border-radius: 10px;
+    box-shadow: 3px 3px 12px  rgb(56, 55, 55);
 }
 
 .todo-conteudo .quem-somos li {
     margin: 10px;
     padding: 5px;
+    
 }
 
 .todo-conteudo .quem-somos .texto-quemsomos {
@@ -194,6 +198,7 @@
     width: 300px;
     height: 300px;
     margin: 30px;
+    box-shadow: 3px 3px 12px  rgb(56, 55, 55);
 }
 
 .todo-conteudo .servicos .todos-servicos .card .titulo-card {
