@@ -1,0 +1,15 @@
+.footer .menu .fa-facebook:hover {
+    color: var(--primeira-cor);
+}
+
+.footer .menu .fa-instagram:hover {
+    color: rgb(255, 136, 0);
+}
+
+.footer .menu .fa-twitter:hover {
+    color: blue;
+}
+
+.footer .menu .fa-tiktok:hover {
+    color: black;
+}
