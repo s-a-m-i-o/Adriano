@@ -53,11 +53,16 @@
     
 }
 
+header.header-mobile {
+    display: none;
+}
+
 .geral {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .todo-conteudo {

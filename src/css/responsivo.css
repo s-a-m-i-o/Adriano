@@ -1,43 +1,114 @@
-@media (min-width:768px) and (max-width:1024px) {
-    .header .logo img {
-        width: 100px;
+@media screen and (max-width:768px) {
+    header.header {
+        display: none;
     }
 
-    .todo-conteudo .indice img{
-        width: 500px;
+    body {
+        padding-top: 0;
     }
 
-    .todo-conteudo .quem-somos img {
-        width: 150px;
-    }
-
-    .todo-conteudo .quem-somos {
-        overflow: hidden;
-        height: 900px;
-    }
-
-    .todo-conteudo .contato img {
-        width: 250px;
-    }
-
-    .todo-conteudo .servicos .todos-servicos {
-        justify-content: center;
-}
-
-}
-
-@media (min-width:380px) and (max-width:767px) {
-    .header {
-        justify-content: space-evenly;
+    header.header-mobile {
+        display: block;
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: space-between;
+        height: 200px;
+        background-color: var(--terceira-cor);
+        box-shadow: 0px 3px 15px black;
+        padding: 40px 5%;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .header-mobile img {
+        width: 100px;
+
+    }
+
+    .header-mobile .menu {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .header-mobile .menu ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 30px;
+    }
+
+    .header-mobile .menu a {
+        font-size: 24px;
+        border-bottom: 1px solid var(--terceira-cor);
+        padding: 1px 5px;
+        color: #fff;
+    }
+
+    .geral {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .geral .todo-conteudo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
     }
 
     .todo-conteudo .indice img {
-        width: 350px;
+        width: 50%;
+    }
+
+    .todo-conteudo .indice {
+        padding: 80px 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .todo-conteudo .indice .descricao-conteudo {
+        text-align: justify;
+        padding: 50px;
+        width: 70%;
     }
 
     .todo-conteudo .quem-somos {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 97%;
     }
 
+    .todo-conteudo .quem-somos .descricao-conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 4%;
+    }
+
+    .todo-conteudo .quem-somos .contato-quem-somos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:40px 4%;
+        border: 0px;
+        margin: 3px 100px;
+        box-shadow: none;
+    }
+
+    .todo-conteudo .contato img {
+        display: none;
+    }
 }
